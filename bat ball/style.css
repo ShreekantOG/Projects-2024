@@ -1,0 +1,24 @@
+
+#main{
+    width: 500px; background-color: rgb(147, 189, 159);
+    margin-left: 200px; padding: 10px;
+    border: 5px solid black;
+}
+#bat{
+    background-image: url(download.jfif); background-size: cover;
+    margin: 20px;  width: 150px; height: 120px;
+}
+#ball{
+    background-image: url(BALL.jfif); background-size: cover;
+    margin: 20px;  width: 150px; height: 120px;
+}
+#stump{
+    background-image: url(stump.jfif); background-size: cover;
+    margin: 20px;  width: 120px; height: 120px;}
+#butoncont{
+      background-color: rgb(155, 143, 188); width: 500px; display: flex; justify-content: center;
+}
+#declare{
+     font-size: 20px; 
+}
+
