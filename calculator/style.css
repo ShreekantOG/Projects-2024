@@ -1,0 +1,16 @@
+
+#main{
+    width: 300px; background-color: rgb(160, 89, 223);
+    margin-left: 200px; border: 5px solid black;
+}
+#display{
+    margin: 10px; margin-left: 20px; border: 2px solid black;
+    width: 80%; height: 50px; font-size: 30px;
+}
+#btnc{
+    width: 80%; margin-left: 20px;
+}
+button{
+    height: 50px; width: 50px; border: 1px solid black;
+    font-size: 30px;
+}

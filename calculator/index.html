@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CALCULATOR</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="main">
+            <input type="text" readonly id="display">
+            <div id="btnc">
+                <button id="" onclick="document.querySelector('#display').value=''">C</button>
+                <button id="percent" onclick="document.querySelector('#display').value += document.querySelector('#percent ').innerHTML">%</button>
+                
+                <button id="backspace" onclick="backspace()">--</button>
+
+                <button id="divide" onclick="document.querySelector('#display').value += document.querySelector('#divide ').innerHTML">/</button>
+                <button id="seven" onclick="document.querySelector('#display').value += document.querySelector('#seven ').innerHTML">7</button>
+                <button id="eight" onclick="document.querySelector('#display').value += document.querySelector('#eight ').innerHTML">8</button>
+                <button id="nine" onclick="document.querySelector('#display').value += document.querySelector('#nine ').innerHTML">9</button>
+                <button id="multiply" onclick="document.querySelector('#display').value += document.querySelector('#multiply').innerHTML">*</button>
+                <button id="four" onclick="document.querySelector('#display').value += document.querySelector('#four').innerHTML">4</button>
+                <button id="five" onclick="document.querySelector('#display').value += document.querySelector('#five').innerHTML">5</button>
+                <button id="six" onclick="document.querySelector('#display').value += document.querySelector('#six').innerHTML">6</button>
+                <button id="minus" onclick="document.querySelector('#display').value += document.querySelector('#minus').innerHTML">-</button>
+                <button id="one" onclick="document.querySelector('#display').value += document.querySelector('#one').innerHTML">1</button>
+                <button id="two" onclick="document.querySelector('#display').value += document.querySelector('#two').innerHTML">2</button>
+                <button id="three" onclick="document.querySelector('#display').value += document.querySelector('#three ').innerHTML">3</button>
+                <button id="plus" onclick="document.querySelector('#display').value += document.querySelector('#plus').innerHTML">+</button>
+                <button id="zero" onclick="document.querySelector('#display').value += document.querySelector('#zero ').innerHTML">0</button>
+                <button id="decimal" onclick="document.querySelector('#display').value += document.querySelector('#decimal ').innerHTML">.</button>
+                <button id="equal" onclick="document.querySelector('#display').value = eval(document.querySelector('#display').value)">=</button>
+
+                
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
