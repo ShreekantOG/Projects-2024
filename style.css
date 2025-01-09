@@ -1,0 +1,17 @@
+
+h1 {
+    background-color: rgb(190, 169, 211); 
+}
+header {
+    font-size: x-large; background-color: rgb(166, 157, 190);
+}
+table {
+    border: 1px solid black; font-size: xx-large;
+}
+th, td {
+    border: 5px solid red; padding: 8px;
+}
+span {
+    font-size: xx-large;
+}
+
